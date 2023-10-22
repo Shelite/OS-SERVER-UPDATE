@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+
+</head>
+
+<body>
+    <div class="sidebar">
+
+        <a href="index.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#profile"><i class="fa fa-fw fa-user"></i> Profile</a>
+        <a href="#setting"><i class="fa fa-fw fa-wrench"></i> Setting</a>
+        <a href="#gallery"><i class="fa fa-fw fa-camera"></i> Gallery</a>
+
+        
+        
+        </div>  
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+        <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="#">Website Logo</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="fa fa-fw fa-sign-in"></span> Logout</a></li>
+        
+        </ul>
+        </div>
+        </nav>
+
+
+            <i class="fa fa-fw fa-home"></i>
+            <i class="fa fa-fw fa-camera"></i>
+            <i class="fa fa-fw fa-wrench"></i>
+            <i class="fa fa-fw fa-user"></i>
+            <i class="fa fa-fw fa-sign-in"></i>
+        <style>
+            body {
+            margin: 0;
+            font-family: "Lato", sans-serif;
+            }
+            
+            .sidebar {
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #2c2c54;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+            padding-top: 50px;
+            }
+            
+            .sidebar a {
+            display: block;
+            color: #f7f1e3;
+            padding: 16px;
+            
+
+            
+            text-decoration: none;
+            }
+            
+            .sidebar a.active {
+            background-color: #ff5252;
+            color: white;
+            }
+            
+            .sidebar a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+            }
+            
+            div.content {
+            margin-left: 200px;
+            padding: 1px 16px;
+            height: 1000px;
+            }
+            
+            @media screen and (max-width: 700px) {
+            .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+            }
+            .sidebar a {float: left;}
+            div.content {margin-left: 0;}
+            }
+            
+            
+            @media screen and (max-width: 400px) {
+            .sidebar a {
+            text-align: center;
+            float: none;
+            }
+            }
+            .navbar {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #222254;
+            position: fixed;
+            height: 50px;
+            
+            }
+           .breadcrumb{
+            padding-left: 250px;
+            padding-top: 50px;
+
+           }
+           #myInput {
+
+background-image: url('/css/searchicon.png');
+background-position: 10px 10px;
+background-repeat: no-repeat;
+width: 100%;
+font-size: 16px;
+padding: 12px 20px 12px 40px;
+border: 1px solid #ddd;
+margin-bottom: 12px;
+}
+
+#myTable {
+
+
+
+border-collapse: collapse;
+width: 100%;
+border: 1px solid #ddd;
+font-size: 18px;
+}
+
+#myTable th, #myTable td {
+text-align: left;
+padding: 12px;
+}
+
+#myTable tr {
+border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+background-color: #f1f1f1;
+}
+
+/* Pagination links */
+div.pagination{
+width: 100%;
+padding-top: 50px;
+}
+.pagination a {
+color: black;
+padding: 8px 16px;
+text-decoration: none;
+transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+background-color: #ff5252;
+color: white;
+}
+
+/* Add a grey background color on mouse-over */
+
+
+.pagination a:hover:not(.active) {
+background-color: #ddd;
+}
+            </style>
+
+    <div>
+    <ul class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">User</a></li>
+    <li>22.83.0830 fiqri andrian julianto</li>
+    <h1>Hi All Participant</h1>
+    <p><h4>This is just exambple dashboard. you can explore the other creative dashboard </h4></p>
+    <p><h4>ini sudah pertemuan 11</h4></p>
+
+    <h2>Data Konsumen</h2>
+    <input type="text" id="myInput" onkeyup="menuCari()" placeholder="Cari nama
+    konsumen..." title="Type in a name">
+    
+    <table id="myTable">
+    <tr class="header">
+    <th style="width:60%;">Nama</th>
+    <th style="width:40%;">Asal Daerah</th>
+    </tr>
+    <tr>
+    <td>Freyanda Alzera Suherman</td>
+    <td>Condong Catur</td>
+    </tr>
+    <tr>
+    <td>Fazico Alzanzea Suherman</td>
+    <td>Sewon</td>
+    </tr>
+    <tr>
+    <td>Firman Asharudin</td>
+    <td>Gunung Kidul</td>
+    </tr>
+    <tr>
+    <td>Dita Leni Rafiah</td>
+    <td>Kulonprogo</td>
+    </tr>
+    <tr>
+    <td>Orlando Guyon</td>
+    <td>Klaten</td>
+    
+    
+    
+    </tr>
+    <tr>
+    <td>Megazini Lima Riubi</td>
+    <td>Pasar Godean</td>
+    </tr>
+    <tr>
+    <td>Crocodilus Daratensis</td>
+    <td>Rawa Buaya</td>
+    </tr>
+    <tr>
+    <td>Jack Tring Keer</td>
+    <td>Magelang</td>
+    </tr>
+
+    <tr>
+        <td>fiqri andrian julianto</td>
+        <td>samarinda</td>
+        </tr>
+        <tr>
+        <td>windah</td>
+        <td>tolcipularang</td>
+        </tr>
+        <tr>
+        <td>aswin</td>
+        <td>ngawi</td>
+        </tr>
+
+    </table>
+
+    
+    
+    </ul>
+     </div>
+
+     <div class="pagination text-center">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a class="active" href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        
+        13
+        
+        <a href="#">&raquo;</a>
+        </div>
+
+
+    
+</body>
+<script>
+
+    function menuCari() {
+    var input, filter, table, tr, td, i, txtValue;
+    
+    11
+    
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+    txtValue = td.textContent || td.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+    tr[i].style.display = "";
+    } else {
+    tr[i].style.display = "none";
+    }
+    }
+    }
+    }
+    </script>
+</html>
