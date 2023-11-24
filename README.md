@@ -28,9 +28,9 @@ sudo apt install php libapache2-mod-php php-mysql
 
 Download file ngrok
 
-| Plugin | README |
+| VERSION | LINK |
 | ------ | ------ |
-| Dropbox | https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.tgz |
+| Ngrok ARM64 | https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.tgz |
 | GitHub | [plugins/github/README.md][PlGh] |
 | Google Drive | [plugins/googledrive/README.md][PlGd] |
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
