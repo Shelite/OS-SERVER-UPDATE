@@ -28,5 +28,6 @@ sudo apt install php libapache2-mod-php php-mysql
 
 Download file ngrok
 
-| https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.tgz | 
+|```|```|
+| NGROK ARM64 | https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.tgz | 
 
