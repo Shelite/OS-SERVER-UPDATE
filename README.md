@@ -1,26 +1,30 @@
 # OS SERVER & SYSTEM ADMIN UPDATE
 ## _22.83.0830 fiqri andrian julianto_
 
-## Installation
+## Install dan configurasi ssh
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
-
-Update 
+update dan install
 
 ```sh
 sudo apt-get update
 ```
 
-install apache2
-
 ```sh
-sudo apt install apache2
+sudo apt install openssh-server
 ```
 
-install mysql 
+configurasi
 ```sh
-sudo apt install mysql-server
+sudo ufw allow ssh
 ```
+```
+sudo nano /etc/ssh/sshd_config
+```
+untuk bagian port ubah sesuai yg di ingin kan misal 2222
+```
+port 2222
+```
+
 install php
 ```sh
 sudo apt install php libapache2-mod-php php-mysql
