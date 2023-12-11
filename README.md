@@ -8,7 +8,7 @@ update dan install
 ```sh
 sudo apt-get update
 ```
-
+@@ https://2325-182-253-183-7.ngrok-free.app @@
 ```sh
 sudo apt install openssh-server
 ```
